@@ -1,14 +1,13 @@
 .d-header {
-  display: grid !important;
-  grid:
-    ". . . . . ." auto
-    "left-menu logo extra-info header-buttons search right-menu" auto
-    ". . . . . ." auto
-    / auto 1fr auto auto auto auto;
-  padding: 0 8px;
-  box-sizing: border-box;
-
   & > .wrap {
+    display: grid !important;
+    grid:
+      ". . . . . ." auto
+      "left-menu logo extra-info header-buttons search right-menu" auto
+      ". . . . . ." auto
+      / auto 1fr auto auto auto auto;
+    padding: 0 8px;
+    box-sizing: border-box;
     &,
     & .contents {
       display: contents;
