@@ -19,7 +19,12 @@
     & > .d-header-icons {
       display: contents;
     }
+    & .menu-panel.drop-down  {
+      left: 21.3%;
+    }
   }
+
+
 
   .header-buttons {
     grid-area: header-buttons;
