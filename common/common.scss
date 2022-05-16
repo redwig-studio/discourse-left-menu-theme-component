@@ -19,14 +19,25 @@
     & > .d-header-icons {
       display: contents;
     }
-    & .hamburger-panel > .menu-panel.drop-down  {
-      left: 13.5%;
+    & .hamburger-panel {
+      position: absolute;
+      & > .menu-panel.drop-down  {
+        top: 60px;
+      }
     }
-    & .search-menu > .menu-panel.drop-down  {
-      right: 16.4%;
+
+    & .search-panel {
+      position: absolute;
+      & > .menu-panel.drop-down  {
+        top: 60px;
+      }
     }
-    & .user-menu > .menu-panel.drop-down  {
-      right: 13.5%;
+
+    & .user-panel {
+      position: absolute;
+      & > .menu-panel.drop-down  {
+        top: 60px;
+      }
     }
   }
 
