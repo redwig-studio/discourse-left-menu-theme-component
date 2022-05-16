@@ -20,23 +20,23 @@
       display: contents;
     }
     & .hamburger-panel {
-      position: absolute;
+      position: absolute !important;
       & > .menu-panel.drop-down  {
-        top: 60px;
+        top: 60px !important;
       }
     }
 
-    & .search-panel {
-      position: absolute;
+    & .search-menu {
+      position: relative !important;
       & > .menu-panel.drop-down  {
-        top: 60px;
+        top: 60px !important;
       }
     }
 
-    & .user-panel {
-      position: absolute;
+    & .user-menu {
+      position: relative !important;
       & > .menu-panel.drop-down  {
-        top: 60px;
+        top: 60px !important;
       }
     }
   }
