@@ -1,4 +1,8 @@
 .d-header {
+  & .icon {
+    border-radius: 50px;
+  }
+
   & > .wrap {
     display: grid !important;
     grid:
