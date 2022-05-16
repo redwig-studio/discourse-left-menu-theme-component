@@ -3,6 +3,10 @@
     border-radius: 50px;
   }
 
+  & .d-header-icons .active .icon:after {
+    border-top: unset;
+  }
+
   & > .wrap {
     display: grid !important;
     grid:
