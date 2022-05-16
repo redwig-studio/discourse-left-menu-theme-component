@@ -20,7 +20,13 @@
       display: contents;
     }
     & .hamburger-panel > .menu-panel.drop-down  {
-      left: 405px;
+      left: 13.5%;
+    }
+    & .search-menu > .menu-panel.drop-down  {
+      right: 16.4%;
+    }
+    & .user-menu > .menu-panel.drop-down  {
+      right: 13.5%;
     }
   }
 
