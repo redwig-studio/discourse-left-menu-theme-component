@@ -19,12 +19,10 @@
     & > .d-header-icons {
       display: contents;
     }
-    & .menu-panel.drop-down  {
-      left: 10px;
+    & .hamburger-panel > .menu-panel.drop-down  {
+      left: 405px;
     }
   }
-
-
 
   .header-buttons {
     grid-area: header-buttons;
